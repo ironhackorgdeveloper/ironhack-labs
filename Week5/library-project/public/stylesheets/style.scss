@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  font-size: 3.5em;
+}
+
+.book-list{
+  display: flex;
+  border-bottom: 2px solid gray;
+  align-items: center;
+  margin-top: 15px;
+  width: fit-content; 
+  .book-name{
+    width: 300px;
+    margin-right: 25px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+}
+.btn {
+  width: fit-content;
+  border-radius: 5px;
+  background-color: gray;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+
+  &.edit-button{
+    background-color: seagreen;
+    margin-right: 10px;
+  }
+  &.del-button {
+    background-color: darkred;
+    font-weight: 800;
+  }
+  &.add-button {
+    background-color: steelblue;
+    font-size: 1.5em;
+    padding: 10px
+  }
+}
+
+.add{
+  margin: 30px 0;
+}
+
+
+.msg {
+  border: 1px solid #f00;
+  width: fit-content;
+  background-color: crimson;
+  padding: 10px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}

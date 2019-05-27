@@ -1,0 +1,16 @@
+.add-movie{
+  border: 3px solid grey;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.add-movie > form > label {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 5px; 
+}
+
+.add-movie > form > input {
+  font-size: 15px;
+  margin-right: 10px;
+}

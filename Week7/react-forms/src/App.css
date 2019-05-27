@@ -1,0 +1,13 @@
+.counter {
+  border: 5px solid green;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.counter > button {
+  background-color:lightgreen;
+  color: #333;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+<h1>BOOKS</h1>
+{{#if msg}}
+    <div class="msg">{{msg}}</div>
+{{/if}}
+    <div class="add">
+    <a href="/books/add/{{this._id}}" class="add-button btn">Add a Book</a>
+    </div>
+{{#each books}}
+    <div class='book-list'>
+        <div class="book-name">
+        <a class="book-link" href="book/{{this._id}}">{{this.title}}</a> 
+        </div>
+        <div class="btns">
+        <a href="/books/edit?book_id={{this._id}}" class="edit-button btn">EDIT</a>
+        <a href="/book/del/{{this._id}}" class="del-button btn">Delete</a>
+        </div>
+    </div>
+{{/each}}

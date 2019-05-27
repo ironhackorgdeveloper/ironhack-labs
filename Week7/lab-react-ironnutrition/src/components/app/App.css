@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  
+}
+.food-row,
+.food-display {
+  width: 50%;
+}

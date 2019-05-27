@@ -1,0 +1,39 @@
+body{
+  background-color: blueviolet;
+}
+
+#section-form{
+  height: 300px;
+  width: 700px;
+  background-color: rgba(255,255, 255, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 130px auto 0;
+}
+
+.form-artist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-artist input{
+  height: 35px;
+  width: 490px;
+  border: none;
+  color: gray;
+  margin-bottom: 25px;
+  padding: 5px;
+  font-size: 1.2em
+}
+
+.form-btn{
+  padding: 10px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4em;
+  color: whitesmoke;
+}
